@@ -11,7 +11,8 @@ import './style.css';
     <div id="header">
     	 <h1>CSC506 Web & Internet Programming</h1>
     </div>
-                <label for="tab-2" className="tab">Sign Up</label>
+    <input id="tab-2" type="radio" name="tab" className="sign-up">
+    <label for="tab-2" className="tab">Sign Up</label>
                 <div className="sign-up-htm">
  <div className="group">
  <label for="user" className="label">Username</label>
